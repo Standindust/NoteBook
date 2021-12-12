@@ -1,0 +1,31 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    >
+    <TableRow>
+
+        <TextView
+            android:layout_width="76dp"
+            android:layout_height="match_parent"
+            android:text=" 姓名"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/save_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="保存数据" />
+    </TableRow>
+</TableLayout>
